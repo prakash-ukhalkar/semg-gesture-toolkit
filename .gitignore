@@ -28,6 +28,9 @@
 !notebooks/
 !docs/
 !tests/
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
 
 # ------------------------------------------------------------------------------
 # 3. Data Directory Rules (Ignore generated data, keep metadata & scripts)
