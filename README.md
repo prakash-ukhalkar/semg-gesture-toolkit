@@ -1,5 +1,8 @@
 # Machine Learning-Based sEMG Prosthetic Gesture Classification
 
+![Tests](https://github.com/prakash-ukhalkar/semg-gesture-toolkit/actions/workflows/tests.yml/badge.svg)
+[![codecov](https://codecov.io/github/prakash-ukhalkar/semg-gesture-toolkit/graph/badge.svg?token=NFHHERTEUS)](https://codecov.io/github/prakash-ukhalkar/semg-gesture-toolkit)
+
 ## Overview
 
 This repository implements a complete end-to-end machine learning pipeline for recognizing prosthetic hand gestures using surface electromyography (sEMG) signals.
