@@ -38,7 +38,7 @@ class MIEstimator:
         """
         logger.info(f"MI Fit: Computing Mutual Information on {X.shape[1]} features...")
         mi_scores = mutual_info_classif(
-            X.values, y,
+            np.array(X.values, copy=True), y,
             discrete_features=False,
             random_state=self.random_state
         )
